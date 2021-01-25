@@ -5,7 +5,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.squashtest.ta.galaxia.tf.param.service.TFParamService;
 
-public class Calculator {
+public class CalculatorTest {
 
     int var1;
     int var2;
