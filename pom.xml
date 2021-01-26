@@ -81,4 +81,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>squashTF</id>
+            <name>squashTF</name>
+            <url>http://repo.squashtest.org/maven2/releases/</url>
+        </repository>
+    </repositories>
 </project>
