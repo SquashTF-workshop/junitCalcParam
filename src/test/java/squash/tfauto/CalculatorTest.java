@@ -12,7 +12,6 @@ public class CalculatorTest {
     int res;
 
     @Test
-    @DisplayName("Addition")
     public void add(){
         var1 = Integer.parseInt(TFParamService.getInstance().getParam("DS_VAR1"));
         var2 = Integer.parseInt(TFParamService.getInstance().getParam("DS_VAR2"));

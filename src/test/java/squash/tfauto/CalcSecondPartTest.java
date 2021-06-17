@@ -15,7 +15,6 @@ public class CalcSecondPartTest {
     int res;
 
     @Test
-    @DisplayName("Substraction")
     public void sub(){
 
         var1 = Integer.parseInt(TFParamService.getInstance().getParam("DS_VAR1"));
@@ -25,7 +24,6 @@ public class CalcSecondPartTest {
     }
 
     @Test
-    @DisplayName("CheckTestCase")
     public void checkTCCUF(){
         var1 = Integer.parseInt(TFParamService.getInstance().getParam("TC_CUF_number"));
         var2 = 2;
@@ -34,7 +32,6 @@ public class CalcSecondPartTest {
     }
 
     @Test
-    @DisplayName("CheckPremiumCUF")
     public void checkPremiumCUF(){
         var1 = Integer.parseInt(TFParamService.getInstance().getParam("TC_CUF_number"));
         var2 = Integer.parseInt(TFParamService.getInstance().getParam("CPG_CUF_number2"));
