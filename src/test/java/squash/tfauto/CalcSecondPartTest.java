@@ -11,7 +11,7 @@ public class CalcSecondPartTest {
     int var2;
     int var3;
     int var4;
-    int var5;
+    String label;
     int res;
 
     @Test
@@ -37,8 +37,9 @@ public class CalcSecondPartTest {
         var2 = Integer.parseInt(TFParamService.getInstance().getParam("CPG_CUF_number2"));
         var3 = Integer.parseInt(TFParamService.getInstance().getParam("IT_CUF_number3"));
         var4 = Integer.parseInt(TFParamService.getInstance().getParam("TS_CUF_number4"));
-        var5 = Integer.parseInt(TFParamService.getInstance().getParam("DSNAME"));
+        label = TFParamService.getInstance().getParam("DSNAME");
         res = Integer.parseInt(TFParamService.getInstance().getParam("DS_expectedResult"));
-        Assertions.assertTrue((var1+var2+var3+var4+var5)==res, "Le résultat du calcul est incorrect.");
+        Assertions.assertTrue(label.equals("Check CUF"), "Le label est incorrect.");
+        Assertions.assertTrue((var1+var2+var3+var4)==res, "Le résultat du calcul est incorrect.");
     }
 }

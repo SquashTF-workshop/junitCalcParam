@@ -15,7 +15,7 @@ Tests sur les CUFs :
     - CUF_CPG_number2 : Second chiffre à additioner
     - CUF_IT_number3 : Troisième chiffre à additioner
     - CUF_TS_number4 : Quatrième chiffre à additioner
-    - DSNAME : Cinquième chiffre à additioner
+    - DSNAME : Chaîne de caractère avec pour valeur "Check CUF"
     - DS_expectedResult : Résultat attendu
 
 Calculator.java : - add(displayName = "Addition")
